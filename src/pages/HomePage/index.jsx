@@ -1,5 +1,7 @@
 import { Question } from '../../components/Question';
+import React from 'react';
 import './style.css';
+import { useState } from 'react';
 
 export const HomePage = () => {
   return (

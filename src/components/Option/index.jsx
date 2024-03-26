@@ -4,7 +4,7 @@ import './style.css';
 export const Option = ({ type, text, onSelected }) => {
   const handleClick = () => {
     console.log(text);
-    onSelected();
+    onSelected(type);
   };
 
   return (
